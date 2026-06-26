@@ -14,8 +14,8 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 public class ScopeConfig {
     // EDIT THIS: only your app(s) under test.
     private static final Set<String> SCOPE = new HashSet<>(Arrays.asList(
-            "com.brave.browser",
-            "com.brave.browser"
+            "com.google.android.gms",
+            "com.google.android.gms"
     ));
 
     static boolean isInScope(String pkg) { return SCOPE.contains(pkg); }
